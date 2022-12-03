@@ -47,7 +47,7 @@ h1 {
 .content {
   background-color: white;
   padding: 2em;
-  margin: 0px
+  margin: 0px;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -71,4 +71,14 @@ h1 {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+#buttonContainer {
+  display: flex;
+  width: 100vw;
+}
+
+
+#buttonContainer button {
+  margin: 1em;
 }
